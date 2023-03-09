@@ -20,9 +20,8 @@ FeedbackList.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       text: PropTypes.string.isRequired,
-      rating: PropTypes.number.isRequired
+      rating: PropTypes.number.isRequired,
     })
-  )
+  ),
 }
-
 export default FeedbackList
